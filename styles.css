@@ -1,0 +1,32 @@
+body {
+	background-color: #d2d2d2;
+}
+
+.container {
+	height: 1000px;
+}
+
+#tag-line {
+	text-align: center;
+}
+
+.disabled-selection {
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	-ms-user-select:none; 
+	user-select:none;
+	-o-user-select:none;  
+}
+
+.image {
+	border-radius: 5px;
+	margin: 0.5rem;
+}
+
+.row img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+

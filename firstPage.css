@@ -1,0 +1,81 @@
+body {
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 37rem;
+	font-family: sans-serif;
+	color: #fff;
+	background-image: url("img/streetlight.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.container {
+	text-align: center;
+}
+
+.name {
+	margin-top: 10rem;
+	letter-spacing: 2rem;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.explore {
+	margin-top: 3rem; ;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.button {
+	border:none;
+	margin-top: 4rem;	
+	padding:0.5rem 2rem;
+	font-size: 1.5rem;
+	background-color: #333;
+	color: #fff;
+	letter-spacing: 10px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+
+@media only screen and (max-width: 567px) {
+	
+	.name {
+	    margin-top: 6rem;
+	    padding-top: ;
+	    font-family: 'Abril Fatface', cursive;
+	}
+
+	.name h1 {
+		font-size: 1.1rem;
+	    letter-spacing: 0.8rem;
+	}
+
+	.explore {
+		margin: 0;
+	}
+
+	a:hover {
+		cursor: pointer;
+		color: rgba(255,255,255,0.2);
+		text-decoration: none;
+	}
+
+	.button {
+		border:none;	
+		margin-top: 0;
+		padding:0.5rem 1rem;
+		font-size: 0.8rem;
+		background-color: #333;
+		color: #fff;
+		letter-spacing: 6px;
+		font-family: 'Orbitron', sans-serif;
+	}
+}
+
